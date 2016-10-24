@@ -1,6 +1,6 @@
 <!-- Create your form here -->
 Student Form
-<%= form_tag("/students", method: "post")%>
+<%= form_tag(students_path)%>
   first name
   <%= text_field_tag(:first_name) %>
   last name
